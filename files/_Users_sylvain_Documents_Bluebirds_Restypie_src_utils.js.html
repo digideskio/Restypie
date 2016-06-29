@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en" class="yui-overrride">
+<head>
+    <meta charset="utf-8">
+    <title>/Users/sylvain/Documents/Bluebirds/Restypie/src/utils.js - NodeToolkit</title>
+    <link rel="stylesheet" href="http://yui.yahooapis.com/3.9.1/build/cssgrids/cssgrids-min.css">
+    <link rel="stylesheet" href="../assets/vendor/prettify/prettify-min.css">
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700' rel='stylesheet' type='text/css'>
+    <link rel="shortcut icon" type="image/png" href="../assets/favicon.png">
+    <script src="http://yui.yahooapis.com/combo?3.9.1/build/yui/yui-min.js"></script>
+    <link rel="stylesheet" href="../assets/css/main.css" id="site_styles">
+</head>
+<body class="yui3-skin-sam">
+
+<div id="doc">
+    <div id="hd" class="yui3-g header">
+        <div class="yui3-u-3-4">
+            <h1 class="blue-main-title">NodeToolkit</h1>
+        </div>
+        <div class="yui3-u-1-4 version project-version">
+            API Docs for: 0.1.2
+        </div>
+    </div>
+    <div id="bd" class="yui3-g">
+
+        <div class="yui3-u-1-4">
+            <div id="docs-sidebar" class="sidebar apidocs">
+                <div id="api-list">
+                    <h2 class="off-left">APIs</h2>
+                    <div id="api-tabview" class="tabview">
+                        <ul class="tabs">
+                            <li><a href="#api-classes">Classes</a></li>
+                            <li><a href="#api-modules">Modules</a></li>
+                        </ul>
+                
+                        <div id="api-tabview-filter">
+                            <input type="search" id="api-filter" placeholder="Type to filter APIs">
+                        </div>
+                
+                        <div id="api-tabview-panel">
+                            <ul id="api-classes" class="apis classes">
+                                <li><a href="../classes/Restypie.API.html">Restypie.API</a></li>
+                                <li><a href="../classes/Restypie.BasicRoutes.html">Restypie.BasicRoutes</a></li>
+                                <li><a href="../classes/Restypie.BasicRoutes.DeleteSingleRoute.html">Restypie.BasicRoutes.DeleteSingleRoute</a></li>
+                                <li><a href="../classes/Restypie.BasicRoutes.GetManyRoute.html">Restypie.BasicRoutes.GetManyRoute</a></li>
+                                <li><a href="../classes/Restypie.BasicRoutes.GetSingleRoute.html">Restypie.BasicRoutes.GetSingleRoute</a></li>
+                                <li><a href="../classes/Restypie.BasicRoutes.OptionsRoute.html">Restypie.BasicRoutes.OptionsRoute</a></li>
+                                <li><a href="../classes/Restypie.BasicRoutes.PatchSingleRoute.html">Restypie.BasicRoutes.PatchSingleRoute</a></li>
+                                <li><a href="../classes/Restypie.BasicRoutes.PostRoute.html">Restypie.BasicRoutes.PostRoute</a></li>
+                                <li><a href="../classes/Restypie.BasicRoutes.PutSingleRoute.html">Restypie.BasicRoutes.PutSingleRoute</a></li>
+                                <li><a href="../classes/Restypie.Bundle.html">Restypie.Bundle</a></li>
+                                <li><a href="../classes/Restypie.Codes.html">Restypie.Codes</a></li>
+                                <li><a href="../classes/Restypie.Fields.html">Restypie.Fields</a></li>
+                                <li><a href="../classes/Restypie.Fields.AbstractField.html">Restypie.Fields.AbstractField</a></li>
+                                <li><a href="../classes/Restypie.Fields.AbstractNumberField.html">Restypie.Fields.AbstractNumberField</a></li>
+                                <li><a href="../classes/Restypie.Fields.AbstractRelationField.html">Restypie.Fields.AbstractRelationField</a></li>
+                                <li><a href="../classes/Restypie.Fields.AnyField.html">Restypie.Fields.AnyField</a></li>
+                                <li><a href="../classes/Restypie.Fields.BooleanField.html">Restypie.Fields.BooleanField</a></li>
+                                <li><a href="../classes/Restypie.Fields.DateField.html">Restypie.Fields.DateField</a></li>
+                                <li><a href="../classes/Restypie.Fields.FileField.html">Restypie.Fields.FileField</a></li>
+                                <li><a href="../classes/Restypie.Fields.FloatField.html">Restypie.Fields.FloatField</a></li>
+                                <li><a href="../classes/Restypie.Fields.IntegerField.html">Restypie.Fields.IntegerField</a></li>
+                                <li><a href="../classes/Restypie.Fields.StringField.html">Restypie.Fields.StringField</a></li>
+                                <li><a href="../classes/Restypie.Fields.ToManyField.html">Restypie.Fields.ToManyField</a></li>
+                                <li><a href="../classes/Restypie.Fields.ToOneField.html">Restypie.Fields.ToOneField</a></li>
+                                <li><a href="../classes/Restypie.Methods.html">Restypie.Methods</a></li>
+                                <li><a href="../classes/Restypie.Operators.html">Restypie.Operators</a></li>
+                                <li><a href="../classes/Restypie.Operators.AbstractListOperator.html">Restypie.Operators.AbstractListOperator</a></li>
+                                <li><a href="../classes/Restypie.Operators.AbstractOperator.html">Restypie.Operators.AbstractOperator</a></li>
+                                <li><a href="../classes/Restypie.Operators.Eq.html">Restypie.Operators.Eq</a></li>
+                                <li><a href="../classes/Restypie.Operators.Gt.html">Restypie.Operators.Gt</a></li>
+                                <li><a href="../classes/Restypie.Operators.Gte.html">Restypie.Operators.Gte</a></li>
+                                <li><a href="../classes/Restypie.Operators.In.html">Restypie.Operators.In</a></li>
+                                <li><a href="../classes/Restypie.Operators.Lt.html">Restypie.Operators.Lt</a></li>
+                                <li><a href="../classes/Restypie.Operators.Lte.html">Restypie.Operators.Lte</a></li>
+                                <li><a href="../classes/Restypie.Operators.Ne.html">Restypie.Operators.Ne</a></li>
+                                <li><a href="../classes/Restypie.Operators.Nin.html">Restypie.Operators.Nin</a></li>
+                                <li><a href="../classes/Restypie.Resources.html">Restypie.Resources</a></li>
+                                <li><a href="../classes/Restypie.Resources.AbstractResource.html">Restypie.Resources.AbstractResource</a></li>
+                                <li><a href="../classes/Restypie.Resources.FixturesResource.html">Restypie.Resources.FixturesResource</a></li>
+                                <li><a href="../classes/Restypie.Resources.ProxyResource.html">Restypie.Resources.ProxyResource</a></li>
+                                <li><a href="../classes/Restypie.Resources.SequelizeResource.html">Restypie.Resources.SequelizeResource</a></li>
+                                <li><a href="../classes/Restypie.RestErrors.html">Restypie.RestErrors</a></li>
+                                <li><a href="../classes/Restypie.RestErrors.AbstractRestError.html">Restypie.RestErrors.AbstractRestError</a></li>
+                                <li><a href="../classes/Restypie.RestErrors.BadRequest.html">Restypie.RestErrors.BadRequest</a></li>
+                                <li><a href="../classes/Restypie.RestErrors.Forbidden.html">Restypie.RestErrors.Forbidden</a></li>
+                                <li><a href="../classes/Restypie.RestErrors.InternalServerError.html">Restypie.RestErrors.InternalServerError</a></li>
+                                <li><a href="../classes/Restypie.RestErrors.NotAcceptable.html">Restypie.RestErrors.NotAcceptable</a></li>
+                                <li><a href="../classes/Restypie.RestErrors.NotFound.html">Restypie.RestErrors.NotFound</a></li>
+                                <li><a href="../classes/Restypie.RestErrors.NotImplemented.html">Restypie.RestErrors.NotImplemented</a></li>
+                                <li><a href="../classes/Restypie.RestErrors.Unauthorized.html">Restypie.RestErrors.Unauthorized</a></li>
+                                <li><a href="../classes/Restypie.RestErrors.UnsupportedMediaType.html">Restypie.RestErrors.UnsupportedMediaType</a></li>
+                                <li><a href="../classes/Restypie.Route.html">Restypie.Route</a></li>
+                                <li><a href="../classes/Restypie.RoutesSorter.html">Restypie.RoutesSorter</a></li>
+                                <li><a href="../classes/Restypie.Serializers.html">Restypie.Serializers</a></li>
+                                <li><a href="../classes/Restypie.Serializers.AbstractSerializer.html">Restypie.Serializers.AbstractSerializer</a></li>
+                                <li><a href="../classes/Restypie.Serializers.JSONSerializer.html">Restypie.Serializers.JSONSerializer</a></li>
+                                <li><a href="../classes/Restypie.TemplateErrors.html">Restypie.TemplateErrors</a></li>
+                                <li><a href="../classes/Restypie.Url.html">Restypie.Url</a></li>
+                                <li><a href="../classes/Restypie.Utils.html">Restypie.Utils</a></li>
+                            </ul>
+                
+                            <ul id="api-modules" class="apis modules">
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="yui3-u-3-4">
+                <div id="api-options">
+                    Show:
+                    <label for="api-show-inherited">
+                        <input type="checkbox" id="api-show-inherited" checked>
+                        Inherited
+                    </label>
+            
+                    <label for="api-show-protected">
+                        <input type="checkbox" id="api-show-protected">
+                        Protected
+                    </label>
+            
+                    <label for="api-show-private">
+                        <input type="checkbox" id="api-show-private">
+                        Private
+                    </label>
+                    <label for="api-show-deprecated">
+                        <input type="checkbox" id="api-show-deprecated">
+                        Deprecated
+                    </label>
+            
+                </div>
+            
+            <div class="apidocs">
+                <div id="docs-main">
+                    <div class="content">
+<h1 class="file-heading">File: /Users/sylvain/Documents/Bluebirds/Restypie/src/utils.js</h1>
+
+<div class="file">
+    <pre class="code prettyprint linenums">
+&#x27;use strict&#x27;;
+
+/***********************************************************************************************************************
+ * Dependencies
+ **********************************************************************************************************************/
+let _ = require(&#x27;lodash&#x27;);
+
+/***********************************************************************************************************************
+ * @namespace Restypie
+ * @class Utils
+ **********************************************************************************************************************/
+module.exports = {
+
+  /**
+   * Checks whether or not &#x60;Child&#x60; is a subclass of &#x60;Parent&#x60;.
+   *
+   * **Throws:**
+   * - &#x60;TypeError&#x60;: If &#x60;Child&#x60; is not a subclass of &#x60;Parent&#x60; and &#x60;shouldThrow&#x60; is set to &#x60;true&#x60;
+   *
+   * @method isSubclassOf
+   * @static
+   * @param {constructor} Child
+   * @param {constructor} Parent
+   * @param {Boolean} [shouldThrow]
+   * @return {Boolean}
+   */
+  isSubclassOf(Child, Parent, shouldThrow) {
+    let isSubclass = !this.isNone(Child) &amp;&amp; Parent.isPrototypeOf(Child);
+    if (!isSubclass &amp;&amp; shouldThrow === true) {
+      throw new TypeError(&#x60;Object ${Child} should be a &quot;${Parent.name}&quot; subclass&#x60;);
+    }
+    return !!isSubclass;
+  },
+
+  /**
+   * Checks whether or not &#x60;obj&#x60; is an instance of &#x60;Constructor&#x60;.
+   *
+   * **Throws:**
+   * - &#x60;TypeError&#x60;: If &#x60;obj&#x60; is not an instance of &#x60;Constructor&#x60; and &#x60;shouldThrow&#x60; is set to &#x60;true&#x60;.
+   *
+   * @method isInstanceOf
+   * @static
+   * @param {Object} obj
+   * @param {constructor} Constructor
+   * @param {Boolean} [shouldThrow]
+   * @return {Boolean}
+   */
+  isInstanceOf(obj, Constructor, shouldThrow) {
+    let isInstance = Constructor &amp;&amp; Constructor.prototype &amp;&amp; (obj instanceof Constructor);
+    if (!isInstance &amp;&amp; shouldThrow === true) {
+      throw new TypeError(&#x60;Object ${obj} should be a &quot;${Constructor.name}&quot; instance&#x60;);
+    }
+    return !!isInstance;
+  },
+
+  /**
+   * To be used in an abstract class constructor. Will throw if the class is instantiated.
+   *
+   * @method forceAbstract
+   * @static
+   * @param {Object} context
+   * @param {constructor} Constructor An abstract class.
+   *
+   * @example
+   * &#x60;&#x60;&#x60;javascript
+   * class Abstract {
+   *   constructor(options) {
+   *     Utils.forceAbstract(this, Abstract);
+   *     this.options = options;
+   *   }
+   * }
+   *
+   * class Child extends Abstract {
+   *   constructor(options, otherParameter) {
+   *     super(options);
+   *     this.otherParameter = otherParameter;
+   *   }
+   * }
+   *
+   * new Child({}, &#x27;foo&#x27;); // Returns a new instance of Child
+   * new Abstract({}); // Throws TypeError: Class Abstract is abstract and cannot be instantiated
+   * &#x60;&#x60;&#x60;
+   */
+  forceAbstract(context, Constructor) {
+    if (context.constructor === Constructor) {
+      throw new TypeError(&#x60;Class ${Constructor.name} is abstract and cannot be instantiated&#x60;);
+    }
+  },
+
+  /**
+   * Forces the class and its subclasses to be static (not instantiable).
+   *
+   * @method forceStatic
+   * @static
+   * @param {Object} context
+   * @param {constructor} Constructor A static class.
+   *
+   * @example
+   * &#x60;&#x60;&#x60;javascript
+   * class Static {
+   *   constructor(options) {
+   *     Utils.forceStatic(this, Static);
+   *   }
+   *   static sayHello() {
+   *     console.log(&#x27;Hello&#x27;);
+   *   }
+   * }
+   *
+   * class Child extends Static {
+   * }
+   *
+   * new Static(); // Throws TypeError: Class Static is static and cannot be instantiated
+   * new Child(); // Throws TypeError: Class Child is static and cannot be instantiated
+   * Static.sayHello(); // Hello
+   * Child.sayHello(); // Hello
+   * &#x60;&#x60;&#x60;
+   */
+  forceStatic(context, Constructor) {
+    if (context.constructor === Constructor || this.isSubclassOf(context.constructor, Constructor)) {
+      throw new TypeError(&#x60;Class ${Constructor.name} is static and cannot be instantiated&#x60;);
+    }
+  },
+
+  /**
+   * Returns &#x60;true&#x60; if &#x60;value&#x60; is &#x60;null&#x60; or &#x60;undefined&#x60;. Returns &#x60;false&#x60; for any other value.
+   *
+   * @method isNone
+   * @static
+   * @param {*} value
+   * @return {Boolean}
+   *
+   * @example
+   * &#x60;&#x60;&#x60;javascript
+   * Utils.isNone(); // true
+   * Utils.isNone(null); // true
+   * Utils.isNone(undefined); // true
+   * Utils.isNone(NaN); // false
+   * Utils.isNone(&#x27;&#x27;); // false
+   * Utils.isNone(0); // false
+   * Utils.isNone(false); // false
+   * Utils.isNone([]); // false
+   * Utils.isNone({}); // false
+   * &#x60;&#x60;&#x60;
+   */
+  isNone(value) {
+    return _.isUndefined(value) || _.isNull(value);
+  },
+
+  /**
+   * Checks whether or not &#x60;value&#x60; is a valid number as well as not &#x60;NaN&#x60;.
+   *
+   * @method isValidNumber
+   * @static
+   * @param {*} value
+   * @return {Boolean}
+   *
+   * @example
+   * &#x60;&#x60;&#x60;javascript
+   * Utils.isValidNumber(3); // true
+   * Utils.isValidNumber(3.2); // true
+   * Utils.isValidNumber(&#x27;3&#x27;); // false
+   * Utils.isValidNumber(NaN); // false
+   * &#x60;&#x60;&#x60;
+   */
+  isValidNumber(value) {
+    return _.isNumber(value) &amp;&amp; !isNaN(value);
+  },
+
+  /**
+   * Checks whether of not &#x60;obj&#x60; is returning a promise.
+   *
+   * @method didReturnAPromise
+   * @static
+   * @param {*} obj
+   * @return {Boolean}
+   *
+   * @example
+   * &#x60;&#x60;&#x60;javascript
+   * function foo() { return &#x27;foo&#x27;; }
+   * function bar() { return null; }
+   * function fooBar() { return Promise.resolve(); }
+   *
+   * Utils.doesReturnAPromise(foo())// false
+   * Utils.doesReturnAPromise(bar())// false
+   * Utils.doesReturnAPromise(fooBar())// true
+   * &#x60;&#x60;&#x60;
+   */
+  didReturnAPromise(obj) {
+    let then;
+    try { then = obj.then; } catch (ex) {}
+    return typeof then === &#x27;function&#x27;;
+  },
+
+  /**
+   * Builds a new class containing all &#x60;mixins&#x60; and allows inheritance.
+   *
+   * @method mix
+   * @static
+   * @param {...Object|constructor} mixins
+   * @return {class}
+   *
+   * @example
+   * &#x60;&#x60;&#x60;javascript
+   * let Copyable = {
+   *   copy() {
+   *     return _.cloneDeep(this);
+   *   }
+   * }
+   *
+   * let Configurable = {
+   *   configure(options) {
+   *     Object.assign(this.options, options);
+   *   }
+   * }
+   *
+   * class MyClass extends Utils.mix(Copyable, Configurable) {
+   *   constructor(options) {
+   *     this.options = options || {};
+   *   }
+   * }
+   *
+   * let instance = new MyClass();
+   * instance.configure({ anOption: &#x27;aValue&#x27; });
+   * let copy = instance.copy();
+   * &#x60;&#x60;&#x60;
+   */
+  mix: (function () {
+
+    // List of properties to not mix.
+    let excludedProperties = [&#x27;constructor&#x27;, &#x27;prototype&#x27;, &#x27;name&#x27;];
+
+    // Mixes target into source.
+    function doMix (target, source) {
+      for (let key of _.difference(Object.getOwnPropertyNames(source), excludedProperties)) {
+        Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key));
+      }
+    }
+
+    return function mix () {
+      let mixins = _.flatten(Array.from(arguments));
+
+      class Mixins {}
+
+      for (let mixin of mixins) {
+        doMix(Mixins, mixin);
+        doMix(Mixins.prototype, mixin.prototype);
+      }
+
+      return Mixins;
+    };
+  })()
+
+};
+    </pre>
+</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="../assets/vendor/prettify/prettify-min.js"></script>
+<script>prettyPrint();</script>
+<script src="../assets/js/yui-prettify.js"></script>
+<script src="../assets/../api.js"></script>
+<script src="../assets/js/api-filter.js"></script>
+<script src="../assets/js/api-list.js"></script>
+<script src="../assets/js/api-search.js"></script>
+<script src="../assets/js/apidocs.js"></script>
+</body>
+</html>

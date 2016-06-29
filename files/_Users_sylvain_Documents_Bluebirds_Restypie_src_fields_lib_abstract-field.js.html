@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en" class="yui-overrride">
+<head>
+    <meta charset="utf-8">
+    <title>/Users/sylvain/Documents/Bluebirds/Restypie/src/fields/lib/abstract-field.js - NodeToolkit</title>
+    <link rel="stylesheet" href="http://yui.yahooapis.com/3.9.1/build/cssgrids/cssgrids-min.css">
+    <link rel="stylesheet" href="../assets/vendor/prettify/prettify-min.css">
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700' rel='stylesheet' type='text/css'>
+    <link rel="shortcut icon" type="image/png" href="../assets/favicon.png">
+    <script src="http://yui.yahooapis.com/combo?3.9.1/build/yui/yui-min.js"></script>
+    <link rel="stylesheet" href="../assets/css/main.css" id="site_styles">
+</head>
+<body class="yui3-skin-sam">
+
+<div id="doc">
+    <div id="hd" class="yui3-g header">
+        <div class="yui3-u-3-4">
+            <h1 class="blue-main-title">NodeToolkit</h1>
+        </div>
+        <div class="yui3-u-1-4 version project-version">
+            API Docs for: 0.1.2
+        </div>
+    </div>
+    <div id="bd" class="yui3-g">
+
+        <div class="yui3-u-1-4">
+            <div id="docs-sidebar" class="sidebar apidocs">
+                <div id="api-list">
+                    <h2 class="off-left">APIs</h2>
+                    <div id="api-tabview" class="tabview">
+                        <ul class="tabs">
+                            <li><a href="#api-classes">Classes</a></li>
+                            <li><a href="#api-modules">Modules</a></li>
+                        </ul>
+                
+                        <div id="api-tabview-filter">
+                            <input type="search" id="api-filter" placeholder="Type to filter APIs">
+                        </div>
+                
+                        <div id="api-tabview-panel">
+                            <ul id="api-classes" class="apis classes">
+                                <li><a href="../classes/Restypie.API.html">Restypie.API</a></li>
+                                <li><a href="../classes/Restypie.BasicRoutes.html">Restypie.BasicRoutes</a></li>
+                                <li><a href="../classes/Restypie.BasicRoutes.DeleteSingleRoute.html">Restypie.BasicRoutes.DeleteSingleRoute</a></li>
+                                <li><a href="../classes/Restypie.BasicRoutes.GetManyRoute.html">Restypie.BasicRoutes.GetManyRoute</a></li>
+                                <li><a href="../classes/Restypie.BasicRoutes.GetSingleRoute.html">Restypie.BasicRoutes.GetSingleRoute</a></li>
+                                <li><a href="../classes/Restypie.BasicRoutes.OptionsRoute.html">Restypie.BasicRoutes.OptionsRoute</a></li>
+                                <li><a href="../classes/Restypie.BasicRoutes.PatchSingleRoute.html">Restypie.BasicRoutes.PatchSingleRoute</a></li>
+                                <li><a href="../classes/Restypie.BasicRoutes.PostRoute.html">Restypie.BasicRoutes.PostRoute</a></li>
+                                <li><a href="../classes/Restypie.BasicRoutes.PutSingleRoute.html">Restypie.BasicRoutes.PutSingleRoute</a></li>
+                                <li><a href="../classes/Restypie.Bundle.html">Restypie.Bundle</a></li>
+                                <li><a href="../classes/Restypie.Codes.html">Restypie.Codes</a></li>
+                                <li><a href="../classes/Restypie.Fields.html">Restypie.Fields</a></li>
+                                <li><a href="../classes/Restypie.Fields.AbstractField.html">Restypie.Fields.AbstractField</a></li>
+                                <li><a href="../classes/Restypie.Fields.AbstractNumberField.html">Restypie.Fields.AbstractNumberField</a></li>
+                                <li><a href="../classes/Restypie.Fields.AbstractRelationField.html">Restypie.Fields.AbstractRelationField</a></li>
+                                <li><a href="../classes/Restypie.Fields.AnyField.html">Restypie.Fields.AnyField</a></li>
+                                <li><a href="../classes/Restypie.Fields.BooleanField.html">Restypie.Fields.BooleanField</a></li>
+                                <li><a href="../classes/Restypie.Fields.DateField.html">Restypie.Fields.DateField</a></li>
+                                <li><a href="../classes/Restypie.Fields.FileField.html">Restypie.Fields.FileField</a></li>
+                                <li><a href="../classes/Restypie.Fields.FloatField.html">Restypie.Fields.FloatField</a></li>
+                                <li><a href="../classes/Restypie.Fields.IntegerField.html">Restypie.Fields.IntegerField</a></li>
+                                <li><a href="../classes/Restypie.Fields.StringField.html">Restypie.Fields.StringField</a></li>
+                                <li><a href="../classes/Restypie.Fields.ToManyField.html">Restypie.Fields.ToManyField</a></li>
+                                <li><a href="../classes/Restypie.Fields.ToOneField.html">Restypie.Fields.ToOneField</a></li>
+                                <li><a href="../classes/Restypie.Methods.html">Restypie.Methods</a></li>
+                                <li><a href="../classes/Restypie.Operators.html">Restypie.Operators</a></li>
+                                <li><a href="../classes/Restypie.Operators.AbstractListOperator.html">Restypie.Operators.AbstractListOperator</a></li>
+                                <li><a href="../classes/Restypie.Operators.AbstractOperator.html">Restypie.Operators.AbstractOperator</a></li>
+                                <li><a href="../classes/Restypie.Operators.Eq.html">Restypie.Operators.Eq</a></li>
+                                <li><a href="../classes/Restypie.Operators.Gt.html">Restypie.Operators.Gt</a></li>
+                                <li><a href="../classes/Restypie.Operators.Gte.html">Restypie.Operators.Gte</a></li>
+                                <li><a href="../classes/Restypie.Operators.In.html">Restypie.Operators.In</a></li>
+                                <li><a href="../classes/Restypie.Operators.Lt.html">Restypie.Operators.Lt</a></li>
+                                <li><a href="../classes/Restypie.Operators.Lte.html">Restypie.Operators.Lte</a></li>
+                                <li><a href="../classes/Restypie.Operators.Ne.html">Restypie.Operators.Ne</a></li>
+                                <li><a href="../classes/Restypie.Operators.Nin.html">Restypie.Operators.Nin</a></li>
+                                <li><a href="../classes/Restypie.Resources.html">Restypie.Resources</a></li>
+                                <li><a href="../classes/Restypie.Resources.AbstractResource.html">Restypie.Resources.AbstractResource</a></li>
+                                <li><a href="../classes/Restypie.Resources.FixturesResource.html">Restypie.Resources.FixturesResource</a></li>
+                                <li><a href="../classes/Restypie.Resources.ProxyResource.html">Restypie.Resources.ProxyResource</a></li>
+                                <li><a href="../classes/Restypie.Resources.SequelizeResource.html">Restypie.Resources.SequelizeResource</a></li>
+                                <li><a href="../classes/Restypie.RestErrors.html">Restypie.RestErrors</a></li>
+                                <li><a href="../classes/Restypie.RestErrors.AbstractRestError.html">Restypie.RestErrors.AbstractRestError</a></li>
+                                <li><a href="../classes/Restypie.RestErrors.BadRequest.html">Restypie.RestErrors.BadRequest</a></li>
+                                <li><a href="../classes/Restypie.RestErrors.Forbidden.html">Restypie.RestErrors.Forbidden</a></li>
+                                <li><a href="../classes/Restypie.RestErrors.InternalServerError.html">Restypie.RestErrors.InternalServerError</a></li>
+                                <li><a href="../classes/Restypie.RestErrors.NotAcceptable.html">Restypie.RestErrors.NotAcceptable</a></li>
+                                <li><a href="../classes/Restypie.RestErrors.NotFound.html">Restypie.RestErrors.NotFound</a></li>
+                                <li><a href="../classes/Restypie.RestErrors.NotImplemented.html">Restypie.RestErrors.NotImplemented</a></li>
+                                <li><a href="../classes/Restypie.RestErrors.Unauthorized.html">Restypie.RestErrors.Unauthorized</a></li>
+                                <li><a href="../classes/Restypie.RestErrors.UnsupportedMediaType.html">Restypie.RestErrors.UnsupportedMediaType</a></li>
+                                <li><a href="../classes/Restypie.Route.html">Restypie.Route</a></li>
+                                <li><a href="../classes/Restypie.RoutesSorter.html">Restypie.RoutesSorter</a></li>
+                                <li><a href="../classes/Restypie.Serializers.html">Restypie.Serializers</a></li>
+                                <li><a href="../classes/Restypie.Serializers.AbstractSerializer.html">Restypie.Serializers.AbstractSerializer</a></li>
+                                <li><a href="../classes/Restypie.Serializers.JSONSerializer.html">Restypie.Serializers.JSONSerializer</a></li>
+                                <li><a href="../classes/Restypie.TemplateErrors.html">Restypie.TemplateErrors</a></li>
+                                <li><a href="../classes/Restypie.Url.html">Restypie.Url</a></li>
+                                <li><a href="../classes/Restypie.Utils.html">Restypie.Utils</a></li>
+                            </ul>
+                
+                            <ul id="api-modules" class="apis modules">
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="yui3-u-3-4">
+                <div id="api-options">
+                    Show:
+                    <label for="api-show-inherited">
+                        <input type="checkbox" id="api-show-inherited" checked>
+                        Inherited
+                    </label>
+            
+                    <label for="api-show-protected">
+                        <input type="checkbox" id="api-show-protected">
+                        Protected
+                    </label>
+            
+                    <label for="api-show-private">
+                        <input type="checkbox" id="api-show-private">
+                        Private
+                    </label>
+                    <label for="api-show-deprecated">
+                        <input type="checkbox" id="api-show-deprecated">
+                        Deprecated
+                    </label>
+            
+                </div>
+            
+            <div class="apidocs">
+                <div id="docs-main">
+                    <div class="content">
+<h1 class="file-heading">File: /Users/sylvain/Documents/Bluebirds/Restypie/src/fields/lib/abstract-field.js</h1>
+
+<div class="file">
+    <pre class="code prettyprint linenums">
+&#x27;use strict&#x27;;
+
+/***********************************************************************************************************************
+ * Dependencies
+ **********************************************************************************************************************/
+let _ = require(&#x27;lodash&#x27;);
+
+let Restypie = require(&#x27;../../&#x27;);
+
+/***********************************************************************************************************************
+ * Abstract class for fields.
+ *
+ * @namespace Restypie.Fields
+ * @class AbstractField
+ * @constructor
+ * @param {String} key Public key for the field, to be manipulated through the APIs.
+ * @param {Object} options
+ * @param {String} [options.path = key] Internal path of the field (might be different than the exposed/public &#x60;key&#x60;).
+ * @param {Boolean} [options.isRequired = false] Is the field required ? If &#x60;true&#x60;, &#x60;isWritable&#x60; will also be
+ * automatically set to true to stay consistent.
+ * @param {Boolean} [options.isReadable = false] Defines whether or not the field can be read/selected.
+ * @param {Boolean} [options.isWritable = false] Defines whether or not the field can be written.
+ * @param {Boolean} [options.isFilterable = false] Defines whether or not the field can be filtered/sorted. If &#x60;true&#x60;,
+ * &#x60;isReadable&#x60; will also be set to &#x60;true&#x60; to stay consistent.
+ * @param {Boolean} [options.isWritableOnce = false] Defines whether or not the field can be updated once written. Be
+ * careful that setting this prop to &#x60;true&#x60; will also set &#x60;isWritable&#x60; and &#x60;isRequired&#x60; to true in order to force the
+ * first write.
+ **********************************************************************************************************************/
+module.exports = class AbstractField {
+
+  get isRelation() { return false; }
+
+  get supportedOperators() { return [Restypie.Operators.Eq]; }
+
+  get optionsProperties() { return []; }
+
+  get through() {
+    return (!this._through || this._through instanceof Restypie.Resources.AbstractCoreResource) ?
+      this._through :
+      this._through();
+  }
+
+  get to() {
+    return (!this._to || this._to instanceof Restypie.Resources.AbstractCoreResource) ?
+      this._to :
+      this._to();
+  }
+
+  get toKey() {
+    return _.isString(this._toKey) ? this._toKey : this.to.primaryKeyField.key;
+  }
+
+  /**
+   * @constructor
+   */
+  constructor(key, options) {
+    Restypie.Utils.forceAbstract(this, AbstractField, true);
+
+    options = options || {};
+
+    this.key = key;
+    this.path = options.path || key;
+    this.isRequired = !!options.isRequired;
+    this.isWritable = !!options.isWritable;
+    this.isFilterable = !!options.isFilterable;
+    this.isReadable = !!options.isReadable;
+    this.isWritableOnce = !!options.isWritableOnce;
+    this.isPrimaryKey = !!options.isPrimaryKey;
+
+    // Let&#x27;s stay consistent - DO NOT change the order of those declarations
+    if (this.isWritableOnce) this.isRequired = true;
+    if (this.isRequired) this.isWritable = true;
+    if (this.isPrimaryKey &amp;&amp; !options.hasOwnProperty(&#x27;isFilterable&#x27;)) this.isFilterable = true;
+    if (this.isFilterable) this.isReadable = true;
+    this.isUpdatable = this.isWritableOnce ? false : this.isWritable;
+
+    if (options.hasOwnProperty(&#x27;default&#x27;)) {
+      this.hasDefault = true;
+      this.default = options.default;
+    }
+
+    if (options.hasOwnProperty(&#x27;to&#x27;)) {
+      this.isPopulable = true;
+      this._to = options.to;
+      this._toKey = options.toKey;
+
+      if (options.hasOwnProperty(&#x27;through&#x27;)) {
+        this._through = options.through;
+        this.throughKey = options.throughKey;
+        this.otherThroughKey = options.otherThroughKey;
+        if (!this.throughKey) throw new Error(&#x27;ManyToMany relation defined without a &#x60;throughKey&#x60;&#x27;);
+        if (!this.otherThroughKey) throw new Error(&#x27;ManyToMany relation defined without a &#x60;otherThroughKey&#x60;&#x27;);
+      }
+    }
+  }
+
+  /**
+   * Checks whether or not the field is present, meaning not &#x60;null&#x60;, nor &#x60;undefined&#x60;.
+   *
+   * @method isPresent
+   * @param {*} value
+   * @return {Boolean}
+   */
+  isPresent(value) {
+    return !Restypie.Utils.isNone(AbstractField.toJavascriptValue(value));
+  }
+
+  /**
+   * Validates that &#x60;value&#x60; &#x60;isPresent()&#x60;.
+   *
+   * **Throws:**
+   * - &#x60;Restypie.TemplateErrors.Missing&#x60;: If the field is required but &#x60;null&#x60; of &#x60;undefined&#x60;.
+   *
+   * @method validatePresence
+   * @param {*} value
+   * @return {Boolean}
+   */
+  validatePresence(value) {
+    let isPresent = this.isPresent(value);
+    if (this.isRequired &amp;&amp; !isPresent) throw new Restypie.TemplateErrors.Missing({ key: this.key, value });
+    return isPresent;
+  }
+
+  /**
+   * Turns &#x60;value&#x60; into its internal value.
+   *
+   * @method hydrate
+   * @param {*} value
+   * @return {*}
+   */
+  hydrate(value) {
+    value = AbstractField.toJavascriptValue(value);
+    if (!this.isPresent(value) &amp;&amp; this.hasDefault) value = this.default;
+    return value;
+  }
+
+  /**
+   * Turns &#x60;value&#x60; into its public value.
+   *
+   * @method dehydrate
+   * @param {*} value
+   * @return {*} value
+   */
+  dehydrate(value) {
+    return value;
+  }
+
+  /**
+   * Validates &#x60;value&#x60; and provides a list of validation errors.
+   *
+   * @method validate
+   * @param {*} value
+   */
+  validate() {
+    return true;
+  }
+
+  /**
+   * Returns the supported operator that corresponds to &#x60;operatorName&#x60;, if any.
+   *
+   * @method getOperatorByName
+   * @param {String} operatorName
+   * @return {Restypie.Operators.AbstractOperator | undefined}
+   */
+  getOperatorByName(operatorName) {
+    for (let operator of this.supportedOperators) {
+      if (operator.stringName === operatorName) return operator;
+    }
+  }
+
+  /**
+   * Turns &#x60;&quot;null&quot;&#x60; and &#x60;&quot;undefined&quot;&#x60; into &#x60;null&#x60; and &#x60;undefined&#x60;, otherwise lets &#x60;value&#x60; untouched.
+   *
+   * @method toJavascriptValue
+   * @static
+   * @param {*} value
+   * @return {*}
+   */
+  static toJavascriptValue(value) {
+    return value === &#x27;null&#x27; ? null :
+      value === &#x27;undefined&#x27; ? undefined :
+        value;
+  }
+};
+    </pre>
+</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="../assets/vendor/prettify/prettify-min.js"></script>
+<script>prettyPrint();</script>
+<script src="../assets/js/yui-prettify.js"></script>
+<script src="../assets/../api.js"></script>
+<script src="../assets/js/api-filter.js"></script>
+<script src="../assets/js/api-list.js"></script>
+<script src="../assets/js/api-search.js"></script>
+<script src="../assets/js/apidocs.js"></script>
+</body>
+</html>
